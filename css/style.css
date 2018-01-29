@@ -68,6 +68,13 @@ HEADER
 		padding-bottom: 2em;
 	}
 
+	.page-header h1 {
+		position: absolute;
+		overflow: hidden;
+		top: -100%;
+		left: -100%;
+	}
+
 	.page-header > div {
 		position: relative;
 	}
@@ -185,6 +192,10 @@ PORTFOLIO
 
 	.work figure {
 		margin-bottom: 1em;
+	}
+
+	.work figure > img {
+		width: 100%;
 	}
 
 /***************************
